@@ -69,8 +69,7 @@ export default function AppLayout() {
         <div className="flex h-14 items-center justify-between border-b border-gray-200 bg-white px-6">
           <button
             className="lg:hidden"
-            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          >
+            onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
             <svg className="h-6 w-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
